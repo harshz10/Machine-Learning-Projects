@@ -1,12 +1,5 @@
-# 💬 Facebook Sentiment Analysis using Python 🧠  
+# 💬Sentiment Analysis using Python 🧠  
 > *Analyze Facebook comments and understand public emotions using VADER & NLTK in Python.*
-
----
-
-## 🗓️ Last Updated: April 28, 2025  
-**Author:** [Your Name]  
-**Environment:** Jupyter Notebook (Anaconda)  
-**Language:** Python 3.x  
 
 ---
 
@@ -45,17 +38,6 @@ You can install all required libraries using either **conda** or **pip**.
 | **Pandas** | Data analysis | `conda install -c anaconda pandas` | `pip install pandas` |
 | **Matplotlib** | Data visualization | `conda install -c conda-forge matplotlib` | `pip install matplotlib` |
 
----
-
-## 📂 Data Source
-
-You can obtain Facebook comments using:
-1. **Facebook Graph API**  
-2. **Manual download** from Facebook  
-3. **Kaggle datasets** *(Recommended)*  
-
-For this project, the dataset used is `kindle.txt`, downloaded from Kaggle.  
-You can replace it with your own text file containing Facebook comments.
 
 ---
 
@@ -156,34 +138,10 @@ plt.show()
 🗂️ Folder Structure
 bash
 Copy code
-Facebook_Sentiment_Analysis/
+Sentiment_Analysis/
 │
-├── facebook_sentiment_analysis.ipynb   # Main notebook
+├── sentiment_analysis.ipynb   # Main notebook
 ├── kindle.txt                          # Sample dataset
 ├── README.md                           # Documentation
-└── requirements.txt                    # Dependencies
-🧩 Requirements File
-nginx
-Copy code
-nltk
-numpy
-pandas
-matplotlib
-🚀 Future Enhancements
-🔗 Integrate Facebook Graph API for real-time comments
 
-🧠 Use Deep Learning models (BERT, RoBERTa) for improved accuracy
 
-📊 Build an interactive dashboard using Streamlit or Dash
-
-🧹 Add data cleaning and stopword removal for better text preprocessing
-
-🏁 Conclusion
-This project demonstrates how to use VADER and NLTK to analyze Facebook comments effectively.
-It serves as a foundation for building more advanced sentiment analysis pipelines and real-world NLP applications.
-
-👨‍💻 Author
-Name: [Your Name]
-Email: [your.email@example.com]
-GitHub: [github.com/yourusername]
-LinkedIn: [linkedin.com/in/yourprofile]
